@@ -1,0 +1,22 @@
+{
+  "name": "@size-limit/preset-small-lib",
+  "version": "8.2.4",
+  "description": "Size Limit preset for small open source libraries",
+  "keywords": [
+    "size-limit",
+    "preset",
+    "performance",
+    "budget",
+    "performance budget"
+  ],
+  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "license": "MIT",
+  "repository": "wittakarn/size-limit",
+  "peerDependencies": {
+    "size-limit": "8.2.4"
+  },
+  "dependencies": {
+    "@size-limit/esbuild": "workspace:8.2.4",
+    "@size-limit/file": "workspace:8.2.4"
+  }
+}

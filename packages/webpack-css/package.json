@@ -1,0 +1,33 @@
+{
+  "name": "@size-limit/webpack-css",
+  "version": "8.2.4",
+  "description": "Webpack plugin to support css for Size Limit",
+  "keywords": [
+    "size-limit",
+    "plugin",
+    "performance",
+    "budget",
+    "performance budget",
+    "webpack"
+  ],
+  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "license": "MIT",
+  "repository": "wittakarn/size-limit",
+  "engines": {
+    "node": "^14.0.0 || ^16.0.0 || >=18.0.0"
+  },
+  "peerDependencies": {
+    "size-limit": "8.2.4"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "style-loader": "^3.3.2"
+  },
+  "devDependencies": {
+    "@size-limit/file": "workspace:^8.2.4",
+    "@size-limit/webpack": "workspace:^8.2.4",
+    "size-limit": "workspace:^8.2.4",
+    "webpack": "^5.76.3"
+  }
+}
