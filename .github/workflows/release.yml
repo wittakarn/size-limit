@@ -23,6 +23,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Release packages
-        run: pnpm release
+        run: ./scripts/each pnpm clean-publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
