@@ -1,6 +1,4 @@
 {
-  "name": "@wittakarn/size-limi",
-  "version": "8.2.4",
   "private": true,
   "scripts": {
     "release": "./scripts/each pnpm clean-publish --access public"
