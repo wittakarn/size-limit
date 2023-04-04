@@ -5,8 +5,11 @@ on:
 
 jobs:
   release:
-    name: Node.js Latest Full
+    name: Release packages
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v3
