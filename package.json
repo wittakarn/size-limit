@@ -85,5 +85,8 @@
     "semi": false,
     "singleQuote": true,
     "trailingComma": "none"
+  },
+  "publishConfig": {
+    "@wittakarn:registry": "https://npm.pkg.github.com"
   }
 }
